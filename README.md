@@ -5,7 +5,7 @@ public class DBConection {
 	public static void main(String [] args){
 		try{
 			Class.forName("com.mysql.cj.jdbc.Driver");
-			Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/vit", "root", "rao@2167");
+			Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/vit", "root", "udi5");
 			
 			Statement stmt=con.createStatement();
 			
